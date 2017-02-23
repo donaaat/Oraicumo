@@ -10,6 +10,10 @@ namespace ConsoleApplication15
     {
         static void Main(string[] args)
         {
+            C c = new C();
+            c.S1();
+            c.S2();
+            Console.ReadKey();
         }
     }
 }
